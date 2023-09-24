@@ -20,7 +20,15 @@ test:
   <<: *default
   database: db/test.sqlite3
 
-production:
-  <<: *default
+# production:
+#   <<: *default
   
-  database: db/production.sqlite3
+#   database: db/production.sqlite3
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rotten_pot
+  pool: 5
+  username: pot
+  password: postgres
