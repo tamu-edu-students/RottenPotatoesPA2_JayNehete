@@ -20,6 +20,9 @@ more_movies = [
       :release_date => '13-Aug-2021'},
     {:title => 'The Lord of the Rings: The Return of the King', :rating => 'PG-13',
       :release_date => '17-Dec-2003'
+    },
+    {:title => 'Harry Potter and the Sorcerers Stone', :rating => 'PG',
+      :release_date => '14-Nov-2001'
     }
   ]
   
